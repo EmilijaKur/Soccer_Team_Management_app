@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/homeTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Team"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/awayTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Away Team"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/matchScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"/>
+
+    <TextView
+        android:id="@+id/matchLeague"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="League"/>
+
+    <TextView
+        android:id="@+id/matchDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"/>
+
+    <TextView
+        android:id="@+id/matchStadium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stadium"/>
+</LinearLayout>
